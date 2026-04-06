@@ -24,6 +24,10 @@ body {
   gap: 16px;
 }
 
+.notices-desktop {
+  width: min(100%, 980px);
+}
+
 .window {
   width: 100%;
 }
@@ -162,6 +166,38 @@ body {
 
 .status-line {
   font-size: 0.92rem;
+}
+
+.legal-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  padding: 0 8px;
+}
+
+.notices-pane {
+  display: grid;
+  gap: 18px;
+}
+
+.notice-block h2 {
+  margin: 0 0 10px;
+}
+
+.notice-block p {
+  margin: 0 0 10px;
+}
+
+.notice-text {
+  margin: 0;
+  padding: 12px;
+  overflow-x: auto;
+  border: 1px solid #000;
+  background: #fff;
+  white-space: pre-wrap;
+  font: inherit;
+  line-height: 1.5;
 }
 
 @media (max-width: 720px) {
